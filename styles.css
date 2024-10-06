@@ -1,0 +1,75 @@
+
+/* Overordnet tema */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    margin: 0;
+    padding: 0;
+    color: #e0e0e0;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Hovedcontainer */
+.main-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* Bokse-styling */
+.box {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    width: 300px;
+}
+
+h2, h3, h4 {
+    color: #f0b90b;
+}
+
+button {
+    background-color: #f0b90b;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #d9a406;
+}
+
+input, select {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #262626;
+    color: #e0e0e0;
+}
+
+/* Resultatlister */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+li {
+    background: #333;
+    margin: 5px 0;
+    padding: 10px;
+    border-left: 4px solid #1aff8c;
+    border-radius: 4px;
+}
+
+li.loss-point {
+    border-left: 4px solid #ff4c4c; /* Rød markering for SL */
+}
